@@ -1,0 +1,47 @@
+//program to reverse a string using stack 
+#include<stdio.h>
+#include<conio.h>
+
+#define max 100
+
+int top , stack[max];
+
+void push(char x)
+{
+    if(top == max - 1)
+    {
+        printf("stack overflow");
+    
+    }
+    else
+    {
+        stack[++top] = x;
+    }
+
+
+void pop()
+{
+    printf("%c" , [top--]);
+}
+
+}
+
+main()
+{
+    char str[] = "maxinee";
+    int length =  strlen(str);
+    int i;
+
+
+for(i = 0; i<lentgh; i++)
+{
+    push (str[i]);
+    
+    
+    
+}
+for (i=0; i<length; i++)
+{
+    po();
+}
+}
